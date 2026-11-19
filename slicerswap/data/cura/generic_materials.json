@@ -1,0 +1,1770 @@
+{
+ "generic_abs": {
+  "bed_temp": 80.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 230.0
+   },
+   "ultimaker_2+_connect": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 230.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 240.0,
+    "material_shrinkage_percentage": "100.3"
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 250.0,
+    "material_pressure_advance_factor": "0.075",
+    "material_shrinkage_percentage": "100.3"
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 230.0
+   },
+   "ultimaker_s3": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s5": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s6": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s7": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s8": {
+    "default_material_bed_temperature": 85.0
+   }
+  },
+  "material": "ABS",
+  "print_temp": 245.0,
+  "settings": {
+   "build_volume_temperature": 36.0,
+   "cool_fan_speed_max": "15",
+   "default_material_bed_temperature": 80.0,
+   "default_material_print_temperature": 245.0,
+   "material_adhesion_tendency": 0.0,
+   "material_shrinkage_percentage": "100",
+   "material_standby_temperature": 145.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_abs_175": {
+  "bed_temp": 80.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 115.0,
+    "default_material_print_temperature": 255.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   },
+   "creality_base": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10mini": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s4": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s5": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10spro": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20pro": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender2": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender3": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender4": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender5": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "kupido": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 70.0,
+    "default_material_print_temperature": 250.0,
+    "material_standby_temperature": 160.0,
+    "retraction_amount": 0.8,
+    "retraction_speed": 40.0
+   },
+   "tronxy_d01": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa_400": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa_500": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy2": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy2pro": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy3": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy3prov2": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   }
+  },
+  "material": "ABS",
+  "print_temp": 230.0,
+  "settings": {
+   "build_volume_temperature": 36.0,
+   "default_material_bed_temperature": 80.0,
+   "default_material_print_temperature": 230.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 200.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_asa": {
+  "bed_temp": 95.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 95.0,
+    "default_material_print_temperature": 255.0,
+    "material_shrinkage_percentage": "100.3"
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 95.0,
+    "default_material_print_temperature": 255.0,
+    "material_shrinkage_percentage": "100.3"
+   }
+  },
+  "material": "ASA",
+  "print_temp": 255.0,
+  "settings": {
+   "build_volume_temperature": 50.0,
+   "cool_fan_speed_max": "15",
+   "default_material_bed_temperature": 95.0,
+   "default_material_print_temperature": 255.0,
+   "material_adhesion_tendency": 0.0,
+   "material_shrinkage_percentage": "100",
+   "material_standby_temperature": 145.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_asa_175": {
+  "bed_temp": 90.0,
+  "diameter": 1.75,
+  "machines": {},
+  "material": "ASA",
+  "print_temp": 240.0,
+  "settings": {
+   "build_volume_temperature": 36.0,
+   "cool_fan_speed": 0.0,
+   "default_material_bed_temperature": 90.0,
+   "default_material_print_temperature": 240.0,
+   "material_standby_temperature": 200.0
+  }
+ },
+ "generic_bam": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_3": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_3_extended": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 100.0,
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 100.0,
+    "material_pressure_advance_factor": "0.125",
+    "retraction_amount": 2.0
+   },
+   "ultimaker_s3": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 100.0
+   }
+  },
+  "material": "Breakaway",
+  "print_temp": 225.0,
+  "settings": {
+   "build_volume_temperature": 24.0,
+   "cool_fan_speed": 100.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 225.0,
+   "material_is_support_material": "true",
+   "material_standby_temperature": 125.0
+  }
+ },
+ "generic_bvoh": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "retraction_amount": 2.5
+   },
+   "ultimaker_factor_4+": {
+    "retraction_amount": 2.5
+   }
+  },
+  "material": "BVOH",
+  "print_temp": 210.0,
+  "settings": {
+   "build_volume_temperature": 40.0,
+   "cool_fan_speed": 88.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 210.0,
+   "material_crystallinity": "true",
+   "material_is_support_material": "true",
+   "material_standby_temperature": 150.0,
+   "raft_airgap": "0"
+  }
+ },
+ "generic_bvoh_175": {
+  "bed_temp": 60.0,
+  "diameter": 1.75,
+  "machines": {},
+  "material": "BVOH",
+  "print_temp": 205.0,
+  "settings": {
+   "cool_fan_speed": 88.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 205.0,
+   "material_is_support_material": "true",
+   "material_standby_temperature": 150.0
+  }
+ },
+ "generic_cffcpe": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0,
+    "retraction_amount": 1.5
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0,
+    "retraction_amount": 1.5
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 50.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 50.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 50.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 50.0,
+    "retraction_amount": 6.5
+   }
+  },
+  "material": "CFF CPE",
+  "print_temp": 265.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 265.0,
+   "material_adhesion_tendency": 0.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_cffpa": {
+  "bed_temp": 70.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0,
+    "retraction_amount": 1.5
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0,
+    "retraction_amount": 1.5
+   }
+  },
+  "material": "CFF PA",
+  "print_temp": 265.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "default_material_bed_temperature": 70.0,
+   "default_material_print_temperature": 265.0,
+   "material_adhesion_tendency": 2.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_cffpps": {
+  "bed_temp": 80.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "retraction_amount": 1.5
+   },
+   "ultimaker_factor_4+": {
+    "material_pressure_advance_factor": "0.05",
+    "retraction_amount": 1.5
+   }
+  },
+  "material": "PPS CF",
+  "print_temp": 320.0,
+  "settings": {
+   "build_volume_temperature": 50.0,
+   "cool_fan_speed": 20.0,
+   "cool_fan_speed_max": "40",
+   "default_material_bed_temperature": 80.0,
+   "default_material_print_temperature": 320.0,
+   "material_adhesion_tendency": 0.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 220.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_cpe": {
+  "bed_temp": 85.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 240.0
+   },
+   "ultimaker_2+_connect": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 240.0
+   },
+   "ultimaker_3": {
+    "default_material_bed_temperature": 85.0,
+    "retraction_combing": "all"
+   },
+   "ultimaker_3_extended": {
+    "default_material_bed_temperature": 85.0,
+    "retraction_combing": "all"
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 240.0,
+    "material_shrinkage_percentage": "100.2",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 240.0,
+    "material_shrinkage_percentage": "100.2",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 240.0
+   },
+   "ultimaker_s3": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s5": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s6": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s7": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s8": {
+    "default_material_bed_temperature": 85.0
+   }
+  },
+  "material": "CPE",
+  "print_temp": 245.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "default_material_bed_temperature": 85.0,
+   "default_material_print_temperature": 245.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 145.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_cpe_175": {
+  "bed_temp": 70.0,
+  "diameter": 1.75,
+  "machines": {},
+  "material": "CPE",
+  "print_temp": 240.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "default_material_bed_temperature": 70.0,
+   "default_material_print_temperature": 240.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 175.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_cpe_plus": {
+  "bed_temp": 107.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 260.0
+   },
+   "ultimaker_2+_connect": {
+    "default_material_print_temperature": 260.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 260.0
+   },
+   "ultimaker_3": {
+    "retraction_combing": "all"
+   },
+   "ultimaker_3_extended": {
+    "retraction_combing": "all"
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 65.0,
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 110.0,
+    "material_shrinkage_percentage": "100.4",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 65.0,
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 110.0,
+    "material_shrinkage_percentage": "100.4",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 260.0
+   },
+   "ultimaker_s3": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s5": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s6": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s7": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s8": {
+    "default_material_bed_temperature": 110.0
+   }
+  },
+  "material": "CPE+",
+  "print_temp": 270.0,
+  "settings": {
+   "build_volume_temperature": 41.0,
+   "default_material_bed_temperature": 107.0,
+   "default_material_print_temperature": 270.0,
+   "material_adhesion_tendency": 0.0,
+   "material_shrinkage_percentage": "100",
+   "material_standby_temperature": 170.0,
+   "material_surface_energy": 65.0
+  }
+ },
+ "generic_gffcpe": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0
+   }
+  },
+  "material": "GFF CPE",
+  "print_temp": 265.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 265.0,
+   "material_adhesion_tendency": 0.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_gffpa": {
+  "bed_temp": 70.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 1.0
+   }
+  },
+  "material": "GFF PA",
+  "print_temp": 265.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "default_material_bed_temperature": 70.0,
+   "default_material_print_temperature": 265.0,
+   "material_adhesion_tendency": 2.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_hips": {
+  "bed_temp": 85.0,
+  "diameter": 2.85,
+  "machines": {},
+  "material": "HIPS",
+  "print_temp": 225.0,
+  "settings": {
+   "default_material_bed_temperature": 85.0,
+   "default_material_print_temperature": 225.0,
+   "material_is_support_material": "true",
+   "material_standby_temperature": 125.0
+  }
+ },
+ "generic_hips_175": {
+  "bed_temp": 60.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 225.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   }
+  },
+  "material": "HIPS",
+  "print_temp": 215.0,
+  "settings": {
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 215.0,
+   "material_is_support_material": "true",
+   "material_standby_temperature": 160.0
+  }
+ },
+ "generic_nylon": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 245.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 245.0
+   },
+   "ultimaker_3": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_3_extended": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 75.0,
+    "default_material_bed_temperature": 40.0,
+    "default_material_print_temperature": 245.0,
+    "material_shrinkage_percentage": "100.4",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 75.0,
+    "default_material_bed_temperature": 40.0,
+    "default_material_print_temperature": 245.0,
+    "material_shrinkage_percentage": "100.4",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 245.0
+   },
+   "ultimaker_s3": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 40.0
+   }
+  },
+  "material": "Nylon",
+  "print_temp": 250.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 250.0,
+   "material_adhesion_tendency": 2.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 150.0,
+   "material_surface_energy": 100.0,
+   "retraction_amount": 8.0,
+   "retraction_speed": 25.0
+  }
+ },
+ "generic_nylon-cf-slide": {
+  "bed_temp": 70.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 3.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 0.0,
+    "material_pressure_advance_factor": "0.05",
+    "retraction_amount": 1.5
+   },
+   "ultimaker_s3": {
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 6.5
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 0.0,
+    "retraction_amount": 6.5
+   }
+  },
+  "material": "Nylon CF Slide",
+  "print_temp": 280.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "cool_fan_speed": 0.0,
+   "default_material_bed_temperature": 70.0,
+   "default_material_print_temperature": 280.0,
+   "material_adhesion_tendency": 2.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 100.0,
+   "retraction_amount": 8.0,
+   "retraction_speed": 25.0
+  }
+ },
+ "generic_nylon_175": {
+  "bed_temp": 60.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 60.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   }
+  },
+  "material": "Nylon",
+  "print_temp": 245.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 245.0,
+   "material_adhesion_tendency": 2.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 175.0,
+   "material_surface_energy": 100.0,
+   "retraction_amount": 8.0,
+   "retraction_speed": 25.0
+  }
+ },
+ "generic_pc": {
+  "bed_temp": 107.0,
+  "diameter": 2.85,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 135.0,
+    "default_material_print_temperature": 245.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   },
+   "ultimaker_2+": {
+    "default_material_print_temperature": 270.0
+   },
+   "ultimaker_2+_connect": {
+    "default_material_print_temperature": 260.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 270.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 65.0,
+    "cool_fan_speed": 0.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 110.0,
+    "material_shrinkage_percentage": "100.4"
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 65.0,
+    "cool_fan_speed": 0.0,
+    "cool_fan_speed_max": "100",
+    "default_material_bed_temperature": 110.0,
+    "material_shrinkage_percentage": "100.4"
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 270.0
+   },
+   "ultimaker_s3": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s5": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s6": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s7": {
+    "default_material_bed_temperature": 110.0
+   },
+   "ultimaker_s8": {
+    "default_material_bed_temperature": 110.0
+   }
+  },
+  "material": "PC",
+  "print_temp": 280.0,
+  "settings": {
+   "build_volume_temperature": 41.0,
+   "cool_fan_speed_max": "15",
+   "default_material_bed_temperature": 107.0,
+   "default_material_print_temperature": 280.0,
+   "material_adhesion_tendency": 0.0,
+   "material_shrinkage_percentage": "100",
+   "material_standby_temperature": 180.0,
+   "material_surface_energy": 65.0
+  }
+ },
+ "generic_pc_175": {
+  "bed_temp": 107.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 135.0,
+    "default_material_print_temperature": 245.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   }
+  },
+  "material": "PC",
+  "print_temp": 270.0,
+  "settings": {
+   "build_volume_temperature": 41.0,
+   "cool_fan_speed": 0.0,
+   "default_material_bed_temperature": 107.0,
+   "default_material_print_temperature": 270.0,
+   "material_standby_temperature": 175.0
+  }
+ },
+ "generic_petcf": {
+  "bed_temp": 80.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "material_flow": "100",
+    "retraction_amount": 4.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 20.0,
+    "material_pressure_advance_factor": "0.15",
+    "retraction_amount": 4.0
+   }
+  },
+  "material": "PET CF",
+  "print_temp": 270.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "cool_fan_speed": 10.0,
+   "default_material_bed_temperature": 80.0,
+   "default_material_print_temperature": 270.0,
+   "material_adhesion_tendency": 1.0,
+   "material_flow": "95",
+   "material_standby_temperature": 165.0,
+   "material_surface_energy": 100.0,
+   "retraction_amount": 10.0
+  }
+ },
+ "generic_petg": {
+  "bed_temp": 85.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+_connect": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_3": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_3_extended": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 85.0,
+    "material_shrinkage_percentage": "100.2",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 50.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 250.0,
+    "material_shrinkage_percentage": "100.2",
+    "retraction_amount": 1.5
+   },
+   "ultimaker_s3": {
+    "material_shrinkage_percentage": "100.5",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s5": {
+    "material_shrinkage_percentage": "100.5",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s6": {
+    "material_shrinkage_percentage": "100.5",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s7": {
+    "material_shrinkage_percentage": "100.5",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s8": {
+    "material_shrinkage_percentage": "100.5",
+    "material_shrinkage_percentage_z": "100.1"
+   }
+  },
+  "material": "PETG",
+  "print_temp": 240.0,
+  "settings": {
+   "build_volume_temperature": 37.0,
+   "default_material_bed_temperature": 85.0,
+   "default_material_print_temperature": 240.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 140.0,
+   "material_surface_energy": 70.0
+  }
+ },
+ "generic_petg_175": {
+  "bed_temp": 70.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 215.0,
+    "material_standby_temperature": 120.0,
+    "retraction_speed": 40.0
+   },
+   "creality_base": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10mini": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s4": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s5": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10spro": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20pro": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender2": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender3": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender4": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender5": {
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 240.0,
+    "material_standby_temperature": 200.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "tronxy_d01": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa_400": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_x5sa_500": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy2": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy2pro": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy3": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_xy3prov2": {
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 80.0,
+    "default_material_print_temperature": 230.0,
+    "material_standby_temperature": 200.0
+   }
+  },
+  "material": "PETG",
+  "print_temp": 215.0,
+  "settings": {
+   "default_material_bed_temperature": 70.0,
+   "default_material_print_temperature": 215.0,
+   "material_standby_temperature": 120.0
+  }
+ },
+ "generic_pla": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_3": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_3_extended": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "material_shrinkage_percentage": "100.16"
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 210.0,
+    "material_shrinkage_percentage": "100.16"
+   },
+   "ultimaker_s3": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.2",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.2",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.2",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.2",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.2",
+    "material_shrinkage_percentage_z": "100.1"
+   }
+  },
+  "material": "PLA",
+  "print_temp": 200.0,
+  "settings": {
+   "build_volume_temperature": 28.0,
+   "cool_fan_speed": 100.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 200.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 100.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_pla_175": {
+  "bed_temp": 60.0,
+  "diameter": 1.75,
+  "machines": {
+   "alya3dp": {
+    "cool_fan_speed": 100.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 1.5,
+    "retraction_speed": 40.0
+   },
+   "alyanx3dp": {
+    "cool_fan_speed": 100.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 1.5,
+    "retraction_speed": 40.0
+   },
+   "biqu_b1": {
+    "cool_fan_speed": 100.0,
+    "default_material_print_temperature": 180.0,
+    "material_standby_temperature": 180.0
+   },
+   "biqu_b1_abl": {
+    "cool_fan_speed": 100.0,
+    "default_material_print_temperature": 180.0,
+    "material_standby_temperature": 180.0
+   },
+   "cartesio": {
+    "cool_fan_speed": 40.0,
+    "default_material_bed_temperature": 43.0,
+    "default_material_print_temperature": 190.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   },
+   "creality_base": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10mini": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s4": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10s5": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr10spro": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_cr20pro": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender2": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender3": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender4": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "creality_ender5": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 5.0,
+    "retraction_speed": 45.0
+   },
+   "imade3d_jellybox": {
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 210.0
+   },
+   "kupido": {
+    "cool_fan_speed": 100.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0,
+    "retraction_amount": 0.8,
+    "retraction_speed": 40.0
+   },
+   "lotmaxx_sc60": {
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 200.0
+   },
+   "tronxy_d01": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_x": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_x5sa": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_x5sa_400": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_x5sa_500": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_xy2": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_xy2pro": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_xy3": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "tronxy_xy3prov2": {
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 200.0,
+    "material_standby_temperature": 180.0
+   },
+   "ultimaker_sketch": {
+    "cool_fan_speed": 100.0,
+    "cool_min_temperature": "215",
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 220.0,
+    "material_bed_temperature_layer_0": "55",
+    "material_final_print_temperature": "215",
+    "material_initial_print_temperature": "215",
+    "material_print_temperature_layer_0": "225",
+    "material_standby_temperature": 160.0
+   },
+   "ultimaker_sketch_large": {
+    "cool_fan_speed": 100.0,
+    "cool_min_temperature": "210",
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 210.0,
+    "material_bed_temperature_layer_0": "55",
+    "material_final_print_temperature": "210",
+    "material_initial_print_temperature": "210",
+    "material_print_temperature_layer_0": "220",
+    "material_standby_temperature": 160.0
+   },
+   "ultimaker_sketch_sprint": {
+    "cool_fan_speed": 100.0,
+    "cool_min_temperature": "215",
+    "default_material_bed_temperature": 55.0,
+    "default_material_print_temperature": 215.0,
+    "material_bed_temperature_layer_0": "60",
+    "material_final_print_temperature": "215",
+    "material_initial_print_temperature": "215",
+    "material_print_temperature_layer_0": "230",
+    "material_standby_temperature": 165.0
+   }
+  },
+  "material": "PLA",
+  "print_temp": 200.0,
+  "settings": {
+   "build_volume_temperature": 28.0,
+   "cool_fan_speed": 100.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 200.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 175.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_pp": {
+  "bed_temp": 100.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 220.0,
+    "retraction_amount": 8.0
+   },
+   "ultimaker_2+_connect": {
+    "retraction_amount": 8.0,
+    "retraction_speed": 25.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 220.0,
+    "retraction_amount": 8.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 20.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 220.0,
+    "material_shrinkage_percentage": "100.7",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 40.0,
+    "cool_fan_speed": 20.0,
+    "default_material_bed_temperature": 85.0,
+    "default_material_print_temperature": 220.0,
+    "material_shrinkage_percentage": "100.7",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 220.0
+   },
+   "ultimaker_s3": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s5": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s6": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s7": {
+    "default_material_bed_temperature": 85.0
+   },
+   "ultimaker_s8": {
+    "default_material_bed_temperature": 85.0
+   }
+  },
+  "material": "PP",
+  "print_temp": 207.0,
+  "settings": {
+   "adhesion_type": "brim",
+   "build_volume_temperature": 41.0,
+   "cool_fan_speed": 20.0,
+   "default_material_bed_temperature": 100.0,
+   "default_material_print_temperature": 207.0,
+   "material_crystallinity": "true",
+   "material_shrinkage_percentage": "100",
+   "material_standby_temperature": 107.0,
+   "retraction_speed": 35.0
+  }
+ },
+ "generic_pva": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 205.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 225.0,
+    "retraction_amount": 2.5
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 35.0,
+    "cool_fan_speed": 50.0,
+    "default_material_print_temperature": 225.0,
+    "retraction_amount": 2.5
+   },
+   "ultimaker_s6": {
+    "material_standby_temperature": 195.0
+   },
+   "ultimaker_s8": {
+    "material_standby_temperature": 195.0
+   }
+  },
+  "material": "PVA",
+  "print_temp": 220.0,
+  "settings": {
+   "build_volume_temperature": 35.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 220.0,
+   "material_crystallinity": "true",
+   "material_is_support_material": "true",
+   "material_standby_temperature": 120.0,
+   "raft_airgap": "0"
+  }
+ },
+ "generic_pva_175": {
+  "bed_temp": 0.0,
+  "diameter": 1.75,
+  "machines": {
+   "cartesio": {
+    "cool_fan_speed": 0.0,
+    "default_material_bed_temperature": 50.0,
+    "default_material_print_temperature": 205.0,
+    "material_standby_temperature": 160.0,
+    "retraction_speed": 40.0
+   }
+  },
+  "material": "PVA",
+  "print_temp": 215.0,
+  "settings": {
+   "default_material_print_temperature": 215.0,
+   "material_crystallinity": "true",
+   "material_is_support_material": "True",
+   "material_standby_temperature": 175.0
+  }
+ },
+ "generic_tough_pla": {
+  "bed_temp": 60.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_3": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_3_extended": {
+    "cool_fan_speed": 100.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "material_shrinkage_percentage": "100.14"
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 100.0,
+    "default_material_bed_temperature": 55.0,
+    "material_shrinkage_percentage": "100.14"
+   },
+   "ultimaker_s3": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.3",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s5": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.3",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s6": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.3",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s7": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.3",
+    "material_shrinkage_percentage_z": "100.1"
+   },
+   "ultimaker_s8": {
+    "cool_fan_speed": 100.0,
+    "material_shrinkage_percentage": "100.3",
+    "material_shrinkage_percentage_z": "100.1"
+   }
+  },
+  "material": "Tough PLA",
+  "print_temp": 215.0,
+  "settings": {
+   "build_volume_temperature": 24.0,
+   "cool_fan_speed": 100.0,
+   "default_material_bed_temperature": 60.0,
+   "default_material_print_temperature": 215.0,
+   "material_adhesion_tendency": 0.0,
+   "material_standby_temperature": 115.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_tpu": {
+  "bed_temp": 0.0,
+  "diameter": 2.85,
+  "machines": {
+   "ultimaker_2+": {
+    "default_material_print_temperature": 228.0
+   },
+   "ultimaker_2+_connect": {
+    "default_material_print_temperature": 235.0,
+    "retraction_amount": 10.0
+   },
+   "ultimaker_2_extended+": {
+    "default_material_print_temperature": 228.0
+   },
+   "ultimaker_factor_4": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 40.0,
+    "material_shrinkage_percentage": "100.3",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_factor_4+": {
+    "build_volume_temperature": 30.0,
+    "cool_fan_speed": 50.0,
+    "default_material_bed_temperature": 40.0,
+    "material_shrinkage_percentage": "100.3",
+    "retraction_amount": 5.0
+   },
+   "ultimaker_original": {
+    "default_material_print_temperature": 228.0
+   }
+  },
+  "material": "TPU 95A",
+  "print_temp": 225.0,
+  "settings": {
+   "build_volume_temperature": 27.0,
+   "default_material_bed_temperature": 0.0,
+   "default_material_print_temperature": 225.0,
+   "material_adhesion_tendency": 3.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 125.0,
+   "material_surface_energy": 100.0
+  }
+ },
+ "generic_tpu_175": {
+  "bed_temp": 0.0,
+  "diameter": 1.75,
+  "machines": {},
+  "material": "TPU 95A",
+  "print_temp": 228.0,
+  "settings": {
+   "build_volume_temperature": 27.0,
+   "default_material_bed_temperature": 0.0,
+   "default_material_print_temperature": 228.0,
+   "material_adhesion_tendency": 3.0,
+   "material_crystallinity": "true",
+   "material_standby_temperature": 175.0,
+   "material_surface_energy": 100.0
+  }
+ }
+}

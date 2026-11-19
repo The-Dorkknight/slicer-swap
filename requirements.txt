@@ -1,0 +1,2 @@
+# SlicerSwap has no third-party Python dependencies.
+# The window needs tkinter (Linux: sudo apt install python3-tk).

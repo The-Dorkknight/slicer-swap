@@ -1,0 +1,16 @@
+2026-10-07 09:16:17,446 - DEBUG - [MainThread] UM.Application.initialize [171]: Initializing UltiMaker Cura
+2026-10-07 09:16:17,446 - DEBUG - [MainThread] UM.Application.initialize [172]: App Version 5.13.0
+2026-10-07 09:16:17,446 - DEBUG - [MainThread] UM.Application.initialize [173]: Api Version 8.12.0
+2026-10-07 09:16:17,447 - INFO - [MainThread] UM.PackageManager._installPackage [607]: Installing package [HybridSupports] from file [/home/user/.cache/cura/5.13/cura_packages/HybridSupports.curapackage]
+2026-10-07 09:16:17,447 - INFO - [MainThread] UM.PackageManager.__installPackageFiles [662]: Moving package HybridSupports from /tmp/tmpabc123/files/plugins to /home/user/.local/share/cura/5.13/plugins/HybridSupports
+2026-10-07 09:16:17,449 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [540]: Loaded plugin FileLogger 1.0.1
+2026-10-07 09:16:17,504 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [540]: Loaded plugin ConsoleLogger 1.0.1
+2026-10-07 09:16:19,219 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [540]: Loaded plugin HybridSupports 0.1.2
+2026-10-07 09:16:19,224 - INFO - [MainThread] UM.PluginRegistry.loadPlugin [540]: Loaded plugin SSWTestHook 0.0.1
+2026-10-07 09:16:19,225 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [456]: Loading all plugins took 1.834911584854126 seconds
+2026-10-07 09:16:24,084 - INFO - [MainThread] cura.CuraApplication.run [900]: Initializing machine manager
+2026-10-07 09:16:26,256 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [355]: Creating post processing plugin view.
+2026-10-07 09:16:26,326 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [365]: Post processing view created.
+2026-10-07 09:16:27,648 - DEBUG - [MainThread] cura.CuraApplication.run [947]: Booting Cura took 15.289186000823975 seconds
+2026-10-07 09:16:57,346 - INFO - [MainThread] cura.CuraApplication.closeApplication [685]: Close application
+2026-10-07 09:16:57,449 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [56]: No more on-app-exit callbacks to process. Tell the app to exit.

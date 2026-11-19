@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SlicerSwap</title>
+<meta name="description" content="Convert, back up, restore and install profiles, printers and plug-ins for Cura, PrusaSlicer and OrcaSlicer. Work in progress. Source-available · Non-commercial.">
+<link rel="icon" href="images/favicon-64.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<style>
+:root{--bg:#f6f4ef;--fg:#1d232b;--muted:#5a6470;--card:#fff;--line:#ddd8cc;--amber:#c97a06;--sky:#0b7fb3;--warn-bg:#fff1d6;--warn-fg:#6b4300;--code:#efece4}
+@media (prefers-color-scheme:dark){:root{--bg:#151a20;--fg:#e8e6e1;--muted:#a3abb5;--card:#1d242c;--line:#2f3943;--amber:#f2a93b;--sky:#5cc3f2;--warn-bg:#3a2b0f;--warn-fg:#f7d28c;--code:#232b34}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+.wip{background:var(--warn-bg);color:var(--warn-fg);text-align:center;font-weight:700;padding:10px 16px;letter-spacing:.02em}
+header{padding:40px 0 16px;display:grid;grid-template-columns:96px 1fr;gap:20px;align-items:center}
+header img{width:96px;height:auto;border-radius:20px}
+h1{margin:0;font-size:2.2rem;letter-spacing:-.02em}
+.tag{margin:.2rem 0 0;color:var(--muted);font-size:1.1rem}
+.flow{font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--muted);margin-top:.4rem}
+.flow b{color:var(--amber)} .flow i{color:var(--sky);font-style:normal;font-weight:700}
+.hero img{width:100%;max-width:760px;margin:0 auto;height:auto;border:1px solid var(--line);border-radius:10px;display:block}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;border:1px solid var(--line);color:var(--fg);text-decoration:none;font-weight:600;background:var(--card)}
+.btn.primary{background:var(--amber);border-color:var(--amber);color:#fff}
+h2{margin:44px 0 12px;font-size:1.4rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card h3{margin:0 0 6px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted)}
+.shots a{display:block;text-decoration:none;color:var(--muted);font-weight:600;text-align:center}
+.shots img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block;margin-bottom:6px}
+ul.no{padding-left:1.1rem;color:var(--muted)} ul.no li{margin:.3rem 0}
+pre{background:var(--code);border-radius:8px;padding:12px;overflow-x:auto;font-size:.9rem}
+code{font-family:ui-monospace,Menlo,Consolas,monospace}
+footer{margin:56px 0 32px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer a,main a{color:var(--sky)}
+@media (max-width:520px){header{grid-template-columns:64px 1fr}header img{width:64px}h1{font-size:1.7rem}}
+</style>
+</head>
+<body>
+<div class="wip">WORK IN PROGRESS: MANY FEATURES MAY BE BROKEN · v0.2.2-wip</div>
+<div class="wrap">
+<header>
+  <img src="images/icon-512.png" alt="">
+  <div>
+    <h1>SlicerSwap</h1>
+    <p class="tag">Convert, back up, restore and install slicer profiles, printers and plug-ins from one window.</p>
+    <div class="flow"><b>Cura</b> ⇄ <i>PrusaSlicer</i> ⇄ <b>OrcaSlicer</b></div>
+  </div>
+</header>
+<main>
+<div class="hero"><img src="images/gui-slicers.webp" alt="SlicerSwap listing Cura, PrusaSlicer and OrcaSlicer and what each one holds"></div>
+<div class="btns">
+  <a class="btn primary" id="zip" href="https://github.com/The-Dorkknight/slicer-swap/archive/refs/heads/main.zip">Download ZIP</a>
+  <a class="btn" id="repo" href="https://github.com/The-Dorkknight/slicer-swap">Source on GitHub</a>
+  <a class="btn" id="rel" href="https://github.com/The-Dorkknight/slicer-swap/releases">Releases</a>
+  <a class="btn" id="how" href="https://github.com/The-Dorkknight/slicer-swap/blob/main/HOW_IT_WORKS.md">How it works</a>
+</div>
+
+<h2>What it does</h2>
+<div class="grid">
+  <div class="card"><h3>Finds your slicers</h3><p>Every Cura version, PrusaSlicer and OrcaSlicer settings folder on the computer, with a count of your own profiles, materials, printers and plug-ins.</p></div>
+  <div class="card"><h3>Backs up to one file</h3><p>Profiles, printers, plug-ins, scripts and app settings in a single <code>.slicerpack</code>, read back and checked. Passwords and API keys are left out by default.</p></div>
+  <div class="card"><h3>Restores what you tick</h3><p>See per item what is new, identical or different before anything is written. A safety copy is made first and one click undoes the restore.</p></div>
+  <div class="card"><h3>Converts all six directions</h3><p>Cura's hidden formulas are evaluated with Cura's own definitions for your printer, so real numbers are converted. Every conversion comes with a plain-English report.</p></div>
+  <div class="card"><h3>Installs for you</h3><p>Converted presets go straight into the slicer. Cura plug-ins go in through Cura's own package manager. A plug-in that would stop Cura from starting is refused, and green means Cura loaded it and finished starting.</p></div>
+  <div class="card"><h3>Runs on anything</h3><p>Pure Python, no extra packages, comfortable on a 7th-gen Core i3. Never uses the network.</p></div>
+</div>
+
+<h2>A look round</h2>
+<div class="grid shots">
+  <a href="images/gui-convert.webp"><img src="images/gui-convert.webp" alt="Convert tab: a Cura profile put straight into OrcaSlicer" loading="lazy"><span>Convert</span></a>
+  <a href="images/gui-backup.webp"><img src="images/gui-backup.webp" alt="Back up tab with tick boxes" loading="lazy"><span>Back up</span></a>
+  <a href="images/gui-restore.webp"><img src="images/gui-restore.webp" alt="Restore tab comparing a backup with the slicer" loading="lazy"><span>Restore</span></a>
+  <a href="images/gui-plugins.webp"><img src="images/gui-plugins.webp" alt="Plug-ins tab: loaded, according to Cura's log" loading="lazy"><span>Plug-ins</span></a>
+</div>
+
+<h2>Start it</h2>
+<p>Download the ZIP, unzip it, and double-click the file for your system. Each one finds Python and says what to install if something is missing.</p>
+<div class="grid">
+  <div class="card"><h3>Linux</h3><p><code>SlicerSwap-Linux.sh</code><br>First time: <code>sudo apt install python3 python3-tk</code></p></div>
+  <div class="card"><h3>Windows</h3><p><code>SlicerSwap-Windows.bat</code><br>First time: install Python from python.org, tick "Add python.exe to PATH"</p></div>
+  <div class="card"><h3>macOS</h3><p><code>SlicerSwap-Mac.command</code><br>First time: install Python from python.org; right-click → Open</p></div>
+</div>
+
+<h2>How it was tested, and what doesn't exist yet</h2>
+<ul class="no">
+  <li>Checked on Linux in the real programs: Cura 5.13.0, PrusaSlicer 2.7.2 and OrcaSlicer 2.4.2 loaded the restored printers, installed presets and plug-in, and reported back every converted value that was compared.</li>
+  <li>The plug-in fault that crashes Cura at start-up (a tool-bar icon with <code>fill</code> on its <code>&lt;svg&gt;</code> tag) was reproduced in Cura 5.13.0, and SlicerSwap's refusal, red flag and removal were checked against it.</li>
+  <li>Not tested: Windows and macOS (including their launchers), Flatpak installs, other slicer versions, and printing the results on a real printer.</li>
+  <li>Single extruder only; per-object settings, modifiers and painted areas are not converted.</li>
+  <li>Cura printers are not created from other slicers' printer presets; plug-ins exist only for Cura.</li>
+  <li>No Windows installer or Mac app; it runs with Python.</li>
+</ul>
+</main>
+<footer>
+  <p>Copyright Matthew Armstrong (<a href="https://github.com/The-Dorkknight">The-Dorkknight</a>). Source-available · Non-commercial: PolyForm Noncommercial License 1.0.0. Provided as is, without warranty; no liability for failed prints or damaged printers. Always check converted presets before printing.</p>
+  <p>Not affiliated with UltiMaker, Prusa Research or the OrcaSlicer project. Bundles Cura setting definitions and profiles (LGPLv3).</p>
+</footer>
+</div>
+<script>
+(function(){try{
+  var h=location.hostname,owner="The-Dorkknight",repo="slicer-swap";
+  if(/\.github\.io$/i.test(h)){owner=h.split(".")[0];var seg=location.pathname.split("/").filter(Boolean);if(seg.length)repo=seg[0];}
+  var base="https://github.com/"+owner+"/"+repo;
+  document.getElementById("repo").href=base;
+  document.getElementById("zip").href=base+"/archive/refs/heads/main.zip";
+  document.getElementById("rel").href=base+"/releases";
+  document.getElementById("how").href=base+"/blob/main/HOW_IT_WORKS.md";
+}catch(e){}})();
+</script>
+</body>
+</html>

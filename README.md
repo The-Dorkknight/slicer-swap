@@ -1,4 +1,4 @@
-# **SLICER SWAP. WORK IN PROGRESS: MANY FEATURES MAY BE BROKEN**
+# **DONT INSTALL, HAS CURA CRASHING BUG! WORK IN PROGRESS**
 
 <p align="center"><img src="docs/images/icon-512.png" alt="SlicerSwap icon" width="128" style="height:auto"></p>
 
@@ -14,7 +14,7 @@ One window for the settings of **Cura**, **PrusaSlicer** and **OrcaSlicer**:
 **Licence:** source-available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md) (free for personal / non-commercial use; not OSI open source).
 **No warranty, no liability.** Converted presets can contain wrong temperatures, speeds or start G-code, and a restore changes your slicer's settings folder. Check every preset in the slicer before printing.
 
-Version `0.2.1-wip` · Copyright Matthew Armstrong ([The-Dorkknight](https://github.com/The-Dorkknight))
+Version `0.2.2-wip` · Copyright Matthew Armstrong ([The-Dorkknight](https://github.com/The-Dorkknight))
 
 <p align="center"><img src="docs/images/gui-slicers.webp" alt="SlicerSwap listing Cura, PrusaSlicer and OrcaSlicer with what each one holds" width="640" style="height:auto"></p>
 
@@ -248,7 +248,8 @@ A Cura profile is not a list of values. It stores only what you changed; everyth
 ## Developing
 
 ```sh
-python3 -m unittest discover -s tests      # 60 tests, standard library only
+python3 -m unittest discover -s tests      # 72 tests, standard library only
+python3 tools/edge_sweep.py                # 71 edge cases, no slicer needed (about 10 s)
 python3 tools/host_tests/check_prusa_orca.py --prusa /usr/bin/prusa-slicer --orca /path/to/OrcaSlicer
 python3 tools/host_tests/check_cura.py --cura /path/to/UltiMaker-Cura.AppImage
 python3 tools/host_tests/check_cura_plugins.py --cura /path/to/UltiMaker-Cura.AppImage

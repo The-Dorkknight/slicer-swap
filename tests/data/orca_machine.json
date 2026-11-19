@@ -1,0 +1,10 @@
+{
+    "type": "machine", "name": "Test Printer", "from": "User", "inherits": "",
+    "printable_area": ["-110x-110", "110x-110", "110x110", "-110x110"], "printable_height": "220",
+    "nozzle_diameter": ["0.4"], "gcode_flavor": "klipper",
+    "machine_start_gcode": "PRINT_START BED=[bed_temperature_initial_layer_single] EXTRUDER=[nozzle_temperature_initial_layer]",
+    "machine_end_gcode": "PRINT_END", "retraction_length": ["0.6"], "retraction_speed": ["40"],
+    "deretraction_speed": ["30"], "z_hop": ["0.3"], "retraction_minimum_travel": ["1"],
+    "retract_when_changing_layer": ["1"], "machine_max_acceleration_x": ["20000", "20000"],
+    "machine_max_jerk_x": ["9", "9"], "machine_max_jerk_y": ["9", "9"], "layer_change_gcode": ";AFTER_LAYER_CHANGE [layer_z]"
+}

@@ -1,0 +1,39 @@
+name: Bug report
+description: A conversion, backup, restore or plug-in install went wrong, or SlicerSwap crashed
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: SlicerSwap version
+      description: Shown in the window title or by `python3 -m slicerswap --version`
+      placeholder: 0.2.2-wip
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Linux Mint 22 / macOS 15 / Windows 11, Python 3.12
+    validations:
+      required: true
+  - type: input
+    id: direction
+    attributes:
+      label: What you were doing, and the slicer versions
+      placeholder: Convert Cura 5.x .curaprofile -> OrcaSlicer 2.x / Restore into PrusaSlicer 2.9 / Plug-in install into Cura 5.x
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong
+      description: What you expected and what you got. For a wrong setting, name it. For "slicer not found", give the folder the slicer keeps its settings in.
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: Report or error text
+      description: Paste the *.report.txt, the text from the box at the bottom of the tab, or the error. Attach the source profile if you can. Do NOT attach a backup made with "Leave out passwords" unticked.
+      render: text

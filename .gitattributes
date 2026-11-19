@@ -1,0 +1,7 @@
+# line endings for the double-click launchers
+*.sh       text eol=lf
+*.command  text eol=lf
+*.bat      text eol=crlf
+*.webp     binary
+*.png      binary
+*.gz       binary
